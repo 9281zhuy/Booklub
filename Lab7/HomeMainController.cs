@@ -98,10 +98,10 @@ namespace Lab7
 
 				// TODO: specify the name of your table in in place of "tblContacts"  
 				// TODO: Add a progress bar 
-				List<TableItem> tableItems = new List<TableItem>(); 
+				List<TableItem> tableItems = new List<TableItem>();
 				// build a query to get a list of records from the MyPhotos class in Parse  
 				// and sort the results by the Name column 
-				var query = from bookItems in ParseObject.GetQuery("Textbook") 
+				var query = from bookItems in ParseObject.GetQuery("Textbook")
 					where bookItems["Author"] == keyword
 					orderby bookItems.CreatedAt descending  
 					select bookItems; 
