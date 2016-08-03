@@ -1,0 +1,38 @@
+# Version: 9.6.1.9 (cycle6-xi-c6sr3: 5f11db8)
+# [first argument, ignore] # /Users/Miko/Desktop/IT App Competition /booklub/Lab7/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.1.9/bin/mtouch \
+	--cache \
+	"/Users/Miko/Desktop/IT App Competition /booklub/Lab7/obj/iPhoneSimulator/Release/mtouch-cache" \
+	--sim \
+	"/Users/Miko/Desktop/IT App Competition /booklub/Lab7/bin/iPhoneSimulator/Release/Lab7.app" \
+	--executable \
+	Lab7 \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.3 \
+	--targetver \
+	9.2 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	"/Users/Miko/Desktop/IT App Competition /booklub/Lab7/obj/iPhoneSimulator/Release/mtouch-symbols.list" \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	"/Users/Miko/Desktop/IT App Competition /Parse-SDK/Parse.iOS/Parse.iOS.dll" \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	"/Users/Miko/Desktop/IT App Competition /Parse-SDK/Parse.iOS/Parse.iOS.dll" \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	"/Users/Miko/Desktop/IT App Competition /booklub/Lab7/bin/iPhoneSimulator/Release//Lab7.exe" \

@@ -1,0 +1,15 @@
+_xamarin_IntPtr_objc_msgSend_IntPtr
+_xamarin_IntPtr_objc_msgSendSuper_IntPtr
+_xamarin_release_managed_ref
+_xamarin_create_managed_ref
+_xamarin_get_block_descriptor
+_CreateZStream
+_CloseZStream
+_Flush
+_ReadZStream
+_WriteZStream
+_xamarin_start_wwan
+_monotouch_GetFolderPath
+_xamarin_timezone_get_data
+_xamarin_get_locale_country_code
+_xamarin_log

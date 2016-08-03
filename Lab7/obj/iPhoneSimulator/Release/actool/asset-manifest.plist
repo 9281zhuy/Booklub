@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/obj/iPhoneSimulator/Release/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ProfileImage.imageset/(null)[2d][SmileFace.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The image set "ProfileImage" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ProfileImage.imageset/[iphone][][][2x][][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The file "images-2.png" for the image set "ProfileImage" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ProfileImage.imageset/[iphone][][][1x][][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The file "images-1.png" for the image set "ProfileImage" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset/[car][120x120][][][1x][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcons" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Book.imageset/(null)[2d][book.png]</string>
+				<string>./Book.imageset/(null)[2d][bookbg.jpg]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The image set "Book" has 2 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Book.imageset/[iphone][][][2x][][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The file "images.jpg" for the image set "Book" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Book.imageset/[iphone][][][1x][][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Miko/Desktop/IT App Competition /booklub/Lab7/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The file "images-3.png" for the image set "Book" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

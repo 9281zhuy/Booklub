@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{AD461F80-F32A-4648-9A5A-42382FE818A8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Lab7</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Lab7</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFastDev>true</MtouchFastDev>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchFloat32>true</MtouchFloat32>
+    <MtouchUseSGen>true</MtouchUseSGen>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchFloat32>true</MtouchFloat32>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchDebug>true</MtouchDebug>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchUseSGen>true</MtouchUseSGen>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Parse.iOS">
+      <HintPath>..\..\Parse-SDK\Parse.iOS\Parse.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\ProfileImage.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Book.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Book.imageset\images-3.png" />
+    <ImageAsset Include="Resources\Images.xcassets\ProfileImage.imageset\images-2.png" />
+    <ImageAsset Include="Resources\Images.xcassets\Login.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\Login.imageset\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="Main.storyboard" />
+    <InterfaceDefinition Include="Main1.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="LoginController.cs" />
+    <Compile Include="LoginController.designer.cs">
+      <DependentUpon>LoginController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeController.cs" />
+    <Compile Include="HomeController.designer.cs">
+      <DependentUpon>HomeController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp_.cs" />
+    <Compile Include="SignUp_.designer.cs">
+      <DependentUpon>SignUp_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Camera.cs" />
+    <Compile Include="UploadABook_.cs" />
+    <Compile Include="UploadABook_.designer.cs" />
+    <Compile Include="EditProfileController.cs" />
+    <Compile Include="EditProfileController.designer.cs">
+      <DependentUpon>EditProfileController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookDetailController.cs" />
+    <Compile Include="BookDetailController.designer.cs">
+      <DependentUpon>BookDetailController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeMainController.cs" />
+    <Compile Include="HomeMainController.designer.cs" />
+    <Compile Include="ImageTableSource.cs" />
+    <Compile Include="ListController.cs" />
+    <Compile Include="ListController.designer.cs" />
+    <Compile Include="TableItem.cs" />
+    <Compile Include="Textbook.cs" />
+    <Compile Include="ShoppingCartController.cs" />
+    <Compile Include="ShoppingCartController.designer.cs">
+      <DependentUpon>ShoppingCartController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebViewController.cs" />
+    <Compile Include="WebViewController.designer.cs">
+      <DependentUpon>WebViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AmazonWebController.cs" />
+    <Compile Include="AmazonWebController.designer.cs">
+      <DependentUpon>AmazonWebController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="where.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Images\loginback.png" />
+    <BundleResource Include="Images\cold-cyan-background-iphone-5-ios7-wallpaper-ilikewallpaper_com.jpg" />
+    <BundleResource Include="Images\Gender Neutral User-30.png" />
+    <BundleResource Include="Images\Shopping Cart-30.png" />
+    <BundleResource Include="Images\app logo.png" />
+    <BundleResource Include="Images\App Logo1.png" />
+    <BundleResource Include="Images\App logo2.png" />
+    <BundleResource Include="Images\Forgot Password-100.png" />
+    <BundleResource Include="Images\Message-100.png" />
+  </ItemGroup>
+</Project>
