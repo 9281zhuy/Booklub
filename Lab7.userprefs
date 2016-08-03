@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Lab7/Lab7.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab7/HomeMainController.cs">
+    <Files>
+      <File FileName="Lab7/HomeController.cs" Line="132" Column="55" />
+      <File FileName="Lab7/UploadABook_.designer.cs" Line="1" Column="1" />
+      <File FileName="Lab7/HomeMainController.cs" Line="105" Column="17" />
+      <File FileName="Lab7/Camera.cs" Line="38" Column="1" />
+      <File FileName="Lab7/WebViewController.cs" Line="39" Column="1" />
+      <File FileName="Lab7/BookDetailController.cs" Line="113" Column="4" />
+      <File FileName="Lab7/where.cs" Line="1" Column="1" />
+      <File FileName="Lab7/HomeMainController.designer.cs" Line="1" Column="1" />
+      <File FileName="Lab7/ImageTableSource.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Miko/Desktop/IT App Competition 3/booklub/Lab7/HomeController.cs" line="43" column="1" />
+      <Breakpoint file="/Users/Miko/Desktop/USE THIS/booklub/Lab7/HomeMainController.cs" line="75" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Lab7 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.42A84FB9-2175-433F-B639-491E5F488B6E" />
+</Properties>
