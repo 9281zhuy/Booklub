@@ -1,66 +1,46 @@
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1033-view-1034.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/139-view-140.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1521-view-1522.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/310-view-311.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/6-view-7.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/760-view-761.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/981-view-982.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Detail.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/ShoppingCart.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/TabBarController.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UINavigationController-39.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-981.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/book.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/home.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/homemain.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/login.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/signup.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main1.storyboardc/139-view-140.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main1.storyboardc/Info.plist
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main1.storyboardc/home.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/partial-info.plist
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/loginback.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Gender Neutral User-30.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Shopping Cart-30.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe.mdb
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe.mdb
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/bin/iPhoneSimulator/Debug/Parse.iOS.dll
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/app logo.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/App Logo1.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/App logo2.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Forgot Password-100.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Message-100.png
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1822-view-1823.nib
-/Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/webview.nib
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/partial-info.plist
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/loginback.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Gender Neutral User-30.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Shopping Cart-30.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/app logo.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/App Logo1.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/App logo2.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Forgot Password-100.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Message-100.png
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe.mdb
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe.mdb
-/Volumes/Seagate Backup Plus Drive/INTE 4051/IT Application/IT App Competition 3/booklub/Lab7/bin/iPhoneSimulator/Debug/Parse.iOS.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1033-view-1034.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/139-view-140.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1521-view-1522.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1822-view-1823.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/310-view-311.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/6-view-7.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/760-view-761.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/981-view-982.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Detail.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/ShoppingCart.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/TabBarController.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UINavigationController-39.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-981.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/book.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/home.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/homemain.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/login.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/signup.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/webview.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main1.storyboardc/139-view-140.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main1.storyboardc/Info.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main1.storyboardc/home.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/bundle/Assets.car
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/loginback.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Gender Neutral User-30.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Shopping Cart-30.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/app logo.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/App Logo1.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/App logo2.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Forgot Password-100.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/Images/Message-100.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/optimized/
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe.mdb
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhoneSimulator/Debug/Lab7.exe
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe.mdb
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhoneSimulator/Debug/Parse.iOS.dll

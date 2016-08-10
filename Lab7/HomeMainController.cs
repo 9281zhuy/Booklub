@@ -38,7 +38,8 @@ namespace Lab7
 			// build a query to get a list of records from the MyPhotos class in Parse  
 			// and sort the results by the Name column 
 			var query = from bookItems in ParseObject.GetQuery("Textbook") 
-				orderby bookItems.CreatedAt descending  select bookItems; 
+				orderby bookItems.CreatedAt descending  
+				select bookItems; 
 			// make an asynchronous call to Parse to get the contents of the query above  
 			IEnumerable<ParseObject> bookListResults = await query.FindAsync(); 
 			// if the returned list from Parse is not empty  
@@ -102,9 +103,9 @@ namespace Lab7
 				// build a query to get a list of records from the MyPhotos class in Parse  
 				// and sort the results by the Name column 
 				var query = from bookItems in ParseObject.GetQuery("Textbook")
-					where bookItems["Author"] == keyword
-					orderby bookItems.CreatedAt descending  
-					select bookItems; 
+					        where bookItems["ISBN"].ToString() == keyword
+				            orderby bookItems.CreatedAt descending
+				            select bookItems;
 				// make an asynchronous call to Parse to get the contents of the query above  
 				IEnumerable<ParseObject> bookListResults = await query.FindAsync(); 
 				// if the returned list from Parse is not empty  
