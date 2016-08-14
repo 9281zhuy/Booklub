@@ -25,6 +25,27 @@ namespace Lab7
 			txtchangeemail.Layer.BorderColor = UIColor.White.CGColor;
 			txtchangeemail.Layer.BorderWidth = 1;
 		
+			txtchangename.ShouldReturn = delegate
+		{
+				txtchangename.ResignFirstResponder();
+			return true;
+		};
+
+			txtchangeemail.ShouldReturn = delegate
+	{
+				txtchangeemail.ResignFirstResponder();
+		return true;
+	};
+
+			txtContInfo.ShouldReturn = delegate
+	{
+				txtContInfo.ResignFirstResponder();
+		return true;
+	};
+
+
+
+
 		}
 
 	

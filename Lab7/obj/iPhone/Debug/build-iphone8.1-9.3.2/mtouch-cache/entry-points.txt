@@ -1,0 +1,17 @@
+UIApplicationMain
+xamarin_release_managed_ref
+xamarin_create_managed_ref
+xamarin_get_block_descriptor
+xamarin_IntPtr_objc_msgSend_IntPtr
+xamarin_IntPtr_objc_msgSendSuper_IntPtr
+CreateZStream
+CloseZStream
+Flush
+ReadZStream
+WriteZStream
+xamarin_start_wwan
+xamarin_GetFolderPath
+xamarin_timezone_get_data
+xamarin_get_locale_country_code
+xamarin_log
+mono_pmip

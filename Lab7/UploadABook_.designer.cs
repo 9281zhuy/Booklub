@@ -44,6 +44,10 @@ namespace Lab7
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txtdescription { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtedition { get; set; }
 
         [Outlet]
@@ -58,24 +62,21 @@ namespace Lab7
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtname { get; set; }
 
-
-        [Action ("Btnbook_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void Btnbook_TouchUpInside (UIButton sender);
-
-
-        [Action ("Btnbookback_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void Btnbookback_TouchUpInside (UIButton sender);
-
-
-        [Action ("Btnuploadabook_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void Btnuploadabook_TouchUpInside (UIButton sender);
-
         [Action ("AmazonPrice_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void AmazonPrice_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("Btnbook_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Btnbook_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("Btnbookback_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Btnbookback_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("Btnuploadabook_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Btnuploadabook_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
@@ -112,6 +113,11 @@ namespace Lab7
             if (txtbookprice != null) {
                 txtbookprice.Dispose ();
                 txtbookprice = null;
+            }
+
+            if (txtdescription != null) {
+                txtdescription.Dispose ();
+                txtdescription = null;
             }
 
             if (txtedition != null) {

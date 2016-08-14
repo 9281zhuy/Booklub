@@ -1,0 +1,7 @@
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/Parse.iOS.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/Lab7.exe
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/System.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/mscorlib.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/mtouch-cache/Link/System.Core.dll

@@ -41,7 +41,17 @@ namespace Lab7
 			txtEmail.Layer.BorderColor = UIColor.White.CGColor;
 			txtEmail.Layer.BorderWidth = 1;
 		
+			txtLastName.ShouldReturn = delegate
+		{
+				txtLastName.ResignFirstResponder();
+			return true;
+		};
 
+			txtFirstName.ShouldReturn = delegate
+		{
+				txtFirstName.ResignFirstResponder();
+			return true;
+		};
 
 		txtPassword.ShouldReturn = delegate
 		{
@@ -55,6 +65,8 @@ namespace Lab7
 			txtConfirmPassword.ResignFirstResponder();
 			return true;
 		};
+
+		
 	}
 
 		/// <summary>

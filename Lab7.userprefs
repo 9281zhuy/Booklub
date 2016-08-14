@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Lab7/HomeController.cs" Line="33" Column="18" />
       <File FileName="Lab7/UploadABook_.designer.cs" Line="1" Column="1" />
-      <File FileName="Lab7/HomeMainController.cs" Line="156" Column="13" />
+      <File FileName="Lab7/HomeMainController.cs" Line="158" Column="2" />
       <File FileName="Lab7/Camera.cs" Line="38" Column="1" />
       <File FileName="Lab7/WebViewController.cs" Line="39" Column="1" />
       <File FileName="Lab7/BookDetailController.cs" Line="113" Column="4" />

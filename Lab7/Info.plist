@@ -31,7 +31,7 @@
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.funcoding.project54</string>
+	<string>com.funcoding.Booklubproject</string>
 	<key>CFBundleName</key>
 	<string>Booklub</string>
 </dict>

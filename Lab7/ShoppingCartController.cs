@@ -57,9 +57,10 @@ namespace Lab7
 						( 
 							new TableItem(bookItem.Name)  
 							{ 
-								SubHeading="$" + bookItem.Price,   
+							SubHeading=bookItem.Name+ "$" + bookItem.Price,   
 								ImageUrl = bookItem.Photo.Url.ToString(),  
 								IsFavorite = bookItem.IsFavorite, 
+								//Heading = bookItem.Name,
 								//ISBN = bookItem.ISBN,
 								//Author = bookItem.Author,
 								//Edition = bookItem.Edition,

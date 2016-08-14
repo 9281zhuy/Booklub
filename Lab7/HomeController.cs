@@ -24,6 +24,10 @@ namespace Lab7
 			btnEditProfile.Layer.CornerRadius = 20;
 			btnlogout.Layer.CornerRadius = 10;
 		
+		
+
+
+
 
 			try
 			{
@@ -127,9 +131,9 @@ namespace Lab7
 
 		partial void Btnlogout_TouchUpInside(UIButton sender)
 		{
-			ParseUser.LogOutAsync();
 			var log = Storyboard.InstantiateViewController("login") as LoginController;
 			NavigationController.PushViewController(log, true);
+			ParseUser.LogOutAsync();
 		}
 	}
 }

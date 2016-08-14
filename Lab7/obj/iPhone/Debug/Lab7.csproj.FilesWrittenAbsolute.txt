@@ -151,3 +151,49 @@
 /Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhone/Debug/optimized/Images/App logo2.png
 /Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhone/Debug/optimized/Images/Forgot Password-100.png
 /Users/myaccount/Desktop/IT App Competition 3/booklub/Lab7/obj/iPhone/Debug/optimized/Images/Message-100.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/LaunchScreen.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/1033-view-1034.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/139-view-140.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/1521-view-1522.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/1822-view-1823.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/310-view-311.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/6-view-7.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/760-view-761.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/981-view-982.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/Detail.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/Info.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/ShoppingCart.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/TabBarController.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/UINavigationController-39.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/UIViewController-981.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/book.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/home.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/homemain.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/login.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/signup.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/webview.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main1.storyboardc/139-view-140.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main1.storyboardc/Info.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main1.storyboardc/home.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/actool/partial-info.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/actool/asset-manifest.plist
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/actool/bundle/Assets.car
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/loginback.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/Gender Neutral User-30.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/Shopping Cart-30.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/app logo.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/App Logo1.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/App logo2.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/Forgot Password-100.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/Images/Message-100.png
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/optimized/
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhone/Debug/Lab7.exe.mdb
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhone/Debug/Lab7.exe
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/Lab7.exe
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/Lab7.exe.mdb
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhone/Debug/Parse.iOS.dll

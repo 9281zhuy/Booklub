@@ -31,6 +31,7 @@ namespace Lab7
 				string ISBN = txtisbn.Text;
 				string Price = txtbookprice.Text;
 				string Email = txtemail.Text;
+				string description = txtdescription.Text;
 			};
 
 			txtname.ShouldReturn = delegate
@@ -73,7 +74,12 @@ namespace Lab7
 				return true;
 			};
 
-
+			txtdescription.ShouldReturn = delegate
+			{
+				// Changed this slightly to move the text entry to the next field.
+				txtdescription.ResignFirstResponder();
+				return true;
+			};
 		}
 
 		partial void Btnbook_TouchUpInside (UIButton sender)
@@ -129,6 +135,7 @@ namespace Lab7
 			Textbook["Author"] = txtauthor.Text;
 			Textbook["Price"] = txtbookprice.Text;
 			Textbook["ContactEmail"] = txtemail.Text;
+			Textbook["Description"] = txtdescription.Text;
 
  
 
@@ -155,6 +162,12 @@ namespace Lab7
 				Textbook["Picture"] = imageFile; // the Parse file
 
 				await Textbook.SaveAsync();
+
+
+				// show an alert to confirm 
+				var alert = new UIAlertView("Upload Successfully",
+					"Your Book is now available for sale!", null, "OK");
+				alert.Show();
 			}
 			catch (Exception ex) {
 

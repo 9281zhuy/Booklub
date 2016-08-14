@@ -29,6 +29,15 @@ namespace Lab7
 			//txtSearch.Layer.BorderColor = UIColor.White.CGColor;
 			txtSearch.Layer.BorderWidth = 1;
 		
+			txtSearch.ShouldReturn = delegate
+			{
+				txtSearch.ResignFirstResponder();
+				return true;
+			};
+
+
+
+
 
 			try{
 
@@ -53,7 +62,7 @@ namespace Lab7
 						Name = bookListItem.Get<string> ("BookName") + " (" + bookListItem.Get<string> ("ISBN")  + ")",  
 						ObjectID = bookListItem.ObjectId,  
 						Photo = bookListItem.Get<ParseFile> ("Picture"),  
-						//Description = bookListItem.Get<string> ("Description"),   
+						Description = bookListItem.Get<string> ("Description"),   
 							ISBN = bookListItem.Get<string> ("ISBN"),
 							Price = bookListItem.Get<string> ("Price"),
 							Edition = bookListItem.Get<string> ("Edition"),
@@ -65,7 +74,7 @@ namespace Lab7
 					( 
 						new TableItem(bookItem.Name)  
 						{ 
-							SubHeading=bookItem.Description,   
+							//SubHeading=bookItem.Description,   
 							ImageUrl = bookItem.Photo.Url.ToString(),  
 							IsFavorite = bookItem.IsFavorite, 
 								ISBN = bookItem.ISBN,
@@ -103,7 +112,7 @@ namespace Lab7
 				// build a query to get a list of records from the MyPhotos class in Parse  
 				// and sort the results by the Name column 
 				var query = from bookItems in ParseObject.GetQuery("Textbook")
-					        where bookItems["ISBN"].ToString() == keyword
+					                                         where bookItems.Get<string>("ISBN") == keyword
 				            orderby bookItems.CreatedAt descending
 				            select bookItems;
 				// make an asynchronous call to Parse to get the contents of the query above  
@@ -119,7 +128,7 @@ namespace Lab7
 							Name = bookListItem.Get<string> ("BookName") + " (" + bookListItem.Get<string> ("ISBN")  + ")",  
 							ObjectID = bookListItem.ObjectId,  
 							Photo = bookListItem.Get<ParseFile> ("Picture"),  
-							//Description = bookListItem.Get<string> ("Description"),   
+							Description = bookListItem.Get<string> ("Description"),   
 							ISBN = bookListItem.Get<string> ("ISBN"),
 							Price = bookListItem.Get<string> ("Price"),
 							Edition = bookListItem.Get<string> ("Edition"),
@@ -131,7 +140,7 @@ namespace Lab7
 						( 
 							new TableItem(bookItem.Name)  
 							{ 
-								//SubHeading=bookItem.Description,   
+								SubHeading=bookItem.Description,   
 								ImageUrl = bookItem.Photo.Url.ToString(),  
 								IsFavorite = bookItem.IsFavorite, 
 								ISBN = bookItem.ISBN,
@@ -149,7 +158,8 @@ namespace Lab7
 				tblContacts.Source = new ImageTableSource (tableItems, this );   
 				tblContacts.ReloadData (); 
 			}
-			catch (Exception ex) {
+			catch (Exception ex) 
+			{
 
 				var error = ex.Message;
 			}

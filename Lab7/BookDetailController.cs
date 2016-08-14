@@ -16,8 +16,7 @@ namespace Lab7
 
 		}
 
-		public TableItem detailedTextbook; 
-
+		public TableItem detailedTextbook;
 
 		public override void ViewDidLoad()
 		{
@@ -32,7 +31,6 @@ namespace Lab7
 			lblopedition.Text = detailedTextbook.Edition;
 			lblPrice.Text = detailedTextbook.Price;
 			imgbook.Image = LoadImage(detailedTextbook.ImageUrl.ToString());
-
 
 		}
 
@@ -87,8 +85,9 @@ namespace Lab7
 					"Your item has been successfully added to the shopping cart!", null, "OK");
 				alert.Show();
 
-				var Cart = Storyboard.InstantiateViewController("ShoppingCart") as ShoppingCartController;
-				NavigationController.PushViewController (Cart, true);
+				//Code for navigating to Shopping Cart
+				//var Cart = Storyboard.InstantiateViewController("ShoppingCart") as ShoppingCartController;
+				//NavigationController.PushViewController (Cart, true);
 			}
 			catch(Exception ex)
 			{

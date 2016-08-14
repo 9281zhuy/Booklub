@@ -97,8 +97,9 @@ namespace Lab7
 			}
 
 			//---- set the item text, subtitle and image/icon
+			//cell.TextLabel.Text = item.Heading;
+			//cell.DetailTextLabel.Text = item.SubHeading;
 			cell.TextLabel.Text = item.Heading;
-			cell.DetailTextLabel.Text = item.SubHeading;
 			cell.ImageView.Image = this.LoadImage(item.ImageUrl); 
 
 			// if the item is marked as a favorite, use the CheckMark cell accessory
@@ -122,6 +123,7 @@ namespace Lab7
 			using (var data = NSData.FromUrl (url))
 				return UIImage.LoadFromData (data);
 		}
+
 
 	}
 }
