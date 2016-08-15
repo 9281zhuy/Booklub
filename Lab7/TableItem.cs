@@ -5,6 +5,7 @@ namespace Lab7
 {
 	public class TableItem
 	{
+		
 		public TableItem ()
 		{
 		}

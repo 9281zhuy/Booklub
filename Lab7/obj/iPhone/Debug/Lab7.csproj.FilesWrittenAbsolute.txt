@@ -197,3 +197,5 @@
 /Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/Lab7.exe
 /Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/Lab7.exe.mdb
 /Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhone/Debug/Parse.iOS.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/1872-view-1873.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhone/Debug/build-iphone8.1-9.3.2/ibtool/Main.storyboardc/Amazon.nib

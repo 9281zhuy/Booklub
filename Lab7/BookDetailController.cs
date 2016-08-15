@@ -8,6 +8,8 @@ namespace Lab7
 {
 	partial class BookDetailController : UIViewController
 	{
+		LoadingOverlay loadingOverlay;
+
 		public BookDetailController (IntPtr handle) : base (handle)
 		{
 			// set the title of your App here
@@ -49,6 +51,12 @@ namespace Lab7
 
 		async partial void Btndetail_TouchUpInside (UIButton sender)
 		{
+			var bounds = UIScreen.MainScreen.Bounds;
+
+			// show the loading overlay on the UI thread using the correct orientation sizing
+			loadingOverlay = new LoadingOverlay(bounds);
+			View.Add(loadingOverlay);
+
 
 			try
 			{
@@ -96,13 +104,15 @@ namespace Lab7
 				alert.Show();
 			}
 
+			loadingOverlay.Hide();
+
 
 		}
 
 		partial void Btnexchange_TouchUpInside (UIButton sender)
 		{
 			var currentUser = ParseUser.CurrentUser;
-			var alert = new UIAlertView("Contact Seller", "Email:"+" "+ "xiaoshi.guo@mu.edu", null, "OK");
+			var alert = new UIAlertView("Contact Seller for Exchange Info", "Email:" + "yiqiu.zhu@marquette.com" , null, "OK");
 			alert.Show();
 		}
 
@@ -115,7 +125,7 @@ namespace Lab7
 
 		partial void BtnCompare_TouchUpInside (UIButton sender)
 		{
-			var Web = Storyboard.InstantiateViewController("webview") as WebViewController;
+			var Web = Storyboard.InstantiateViewController("Amazon") as AmazonWebController;
 			Web.keyword = lblISBN.Text;
 			NavigationController.PushViewController (Web, true);
 		}

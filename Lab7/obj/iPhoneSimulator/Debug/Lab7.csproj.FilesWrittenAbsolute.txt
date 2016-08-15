@@ -44,3 +44,5 @@
 /Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe
 /Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/Lab7.exe.mdb
 /Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/bin/iPhoneSimulator/Debug/Parse.iOS.dll
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1872-view-1873.nib
+/Users/myaccount/Desktop/Booklub_Modified/booklub/Lab7/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Amazon.nib

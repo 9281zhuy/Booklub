@@ -53,21 +53,6 @@
 				<integer>9</integer>
 			</dict>
 		</array>
-		<key>1872</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>1872</string>
-				</array>
-				<key>message</key>
-				<string>Scene is unreachable due to lack of entry points and does not have an identifier for runtime access via -instantiateViewControllerWithIdentifier:.</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
 	</dict>
 </dict>
 </plist>

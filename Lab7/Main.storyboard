@@ -896,7 +896,7 @@
         </scene>
         <scene sceneID="1871">
             <objects>
-                <viewController id="1872" sceneMemberID="viewController" customClass="AmazonWebController">
+                <viewController id="1872" sceneMemberID="viewController" customClass="AmazonWebController" storyboardIdentifier="Amazon">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1869"/>
                         <viewControllerLayoutGuide type="bottom" id="1870"/>

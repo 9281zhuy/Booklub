@@ -10,6 +10,9 @@ namespace Lab7
 {
 	partial class HomeMainController : UIViewController
 	{
+		LoadingOverlay loadingOverlay;
+
+
 		public HomeMainController (IntPtr handle) : base (handle)
 		{
 			// set the title of your App here
@@ -102,6 +105,12 @@ namespace Lab7
 
 		async partial void BtnSearch_TouchUpInside (UIButton sender)
 		{
+			var bounds = UIScreen.MainScreen.Bounds;
+
+			// show the loading overlay on the UI thread using the correct orientation sizing
+			loadingOverlay = new LoadingOverlay(bounds);
+			View.Add(loadingOverlay);
+
 			var keyword = txtSearch.Text;
 
 			try{
@@ -116,33 +125,33 @@ namespace Lab7
 				            orderby bookItems.CreatedAt descending
 				            select bookItems;
 				// make an asynchronous call to Parse to get the contents of the query above  
-				IEnumerable<ParseObject> bookListResults = await query.FindAsync(); 
+				IEnumerable<ParseObject> bookListResults = await query.FindAsync();
 				// if the returned list from Parse is not empty  
-				if (bookListResults != null) 
+				if (bookListResults != null)
 				{
 					// loop through the results and set the object properties  
-					foreach (var bookListItem in bookListResults) 
-					{ 
-						var bookItem = new Textbook ()  
-						{ 
-							Name = bookListItem.Get<string> ("BookName") + " (" + bookListItem.Get<string> ("ISBN")  + ")",  
-							ObjectID = bookListItem.ObjectId,  
-							Photo = bookListItem.Get<ParseFile> ("Picture"),  
-							Description = bookListItem.Get<string> ("Description"),   
-							ISBN = bookListItem.Get<string> ("ISBN"),
-							Price = bookListItem.Get<string> ("Price"),
-							Edition = bookListItem.Get<string> ("Edition"),
-							Author = bookListItem.Get<string> ("Author"),
-							IsFavorite = false 
+					foreach (var bookListItem in bookListResults)
+					{
+						var bookItem = new Textbook()
+						{
+							Name = bookListItem.Get<string>("BookName") + " (" + bookListItem.Get<string>("ISBN") + ")",
+							ObjectID = bookListItem.ObjectId,
+							Photo = bookListItem.Get<ParseFile>("Picture"),
+							Description = bookListItem.Get<string>("Description"),
+							ISBN = bookListItem.Get<string>("ISBN"),
+							Price = bookListItem.Get<string>("Price"),
+							Edition = bookListItem.Get<string>("Edition"),
+							Author = bookListItem.Get<string>("Author"),
+							IsFavorite = false
 						};
 						// assign the retrieved properties to the TableItem’s properties  
-						tableItems.Add  
-						( 
-							new TableItem(bookItem.Name)  
-							{ 
-								SubHeading=bookItem.Description,   
-								ImageUrl = bookItem.Photo.Url.ToString(),  
-								IsFavorite = bookItem.IsFavorite, 
+						tableItems.Add
+						(
+							new TableItem(bookItem.Name)
+							{
+								SubHeading = bookItem.Description,
+								ImageUrl = bookItem.Photo.Url.ToString(),
+								IsFavorite = bookItem.IsFavorite,
 								ISBN = bookItem.ISBN,
 								Author = bookItem.Author,
 								Edition = bookItem.Edition,
@@ -150,10 +159,11 @@ namespace Lab7
 
 
 
-							} 
-						); 
+							}
+						);
 					}
 				}
+
 				// set the table view’s source to that of the new ImageTableSource   
 				tblContacts.Source = new ImageTableSource (tableItems, this );   
 				tblContacts.ReloadData (); 
@@ -162,7 +172,9 @@ namespace Lab7
 			{
 
 				var error = ex.Message;
+
 			}
+			loadingOverlay.Hide();
 		}
 	}
 }

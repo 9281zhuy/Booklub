@@ -21,6 +21,10 @@
       <LogicalName>Main.storyboardc/1822-view-1823.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/1872-view-1873.nib">
+      <LogicalName>Main.storyboardc/1872-view-1873.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/310-view-311.nib">
       <LogicalName>Main.storyboardc/310-view-311.nib</LogicalName>
       <Optimize>false</Optimize>
@@ -35,6 +39,10 @@
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/981-view-982.nib">
       <LogicalName>Main.storyboardc/981-view-982.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Amazon.nib">
+      <LogicalName>Main.storyboardc/Amazon.nib</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib">

@@ -1,15 +1,15 @@
 ﻿<Properties StartupItem="Lab7/Lab7.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab7/HomeMainController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab7/Info.plist">
     <Files>
-      <File FileName="Lab7/HomeController.cs" Line="33" Column="18" />
-      <File FileName="Lab7/UploadABook_.designer.cs" Line="1" Column="1" />
-      <File FileName="Lab7/HomeMainController.cs" Line="158" Column="2" />
-      <File FileName="Lab7/Camera.cs" Line="38" Column="1" />
-      <File FileName="Lab7/WebViewController.cs" Line="39" Column="1" />
-      <File FileName="Lab7/BookDetailController.cs" Line="113" Column="4" />
-      <File FileName="Lab7/where.cs" Line="1" Column="1" />
-      <File FileName="Lab7/HomeMainController.designer.cs" Line="1" Column="1" />
-      <File FileName="Lab7/ImageTableSource.cs" Line="1" Column="1" />
+      <File FileName="Lab7/HomeController.cs" Line="133" Column="4" />
+      <File FileName="Lab7/HomeMainController.cs" Line="35" Column="4" />
+      <File FileName="Lab7/WebViewController.cs" Line="34" Column="1" />
+      <File FileName="Lab7/AmazonWebController.cs" Line="32" Column="1" />
+      <File FileName="Lab7/BookDetailController.cs" Line="130" Column="46" />
+      <File FileName="Lab7/LoginController.cs" Line="114" Column="13" />
+      <File FileName="Lab7/TableItem.cs" Line="8" Column="3" />
+      <File FileName="Lab7/EditProfileController.cs" Line="52" Column="1" />
+      <File FileName="Lab7/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
